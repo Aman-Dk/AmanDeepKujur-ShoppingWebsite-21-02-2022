@@ -1,0 +1,153 @@
+body{
+    font-family: sans-serif;
+}
+.box{
+    background: url(./images/backg3.png) no-repeat;
+    background-size:cover;
+}
+/* .navbar-brand{ */
+    /* margin: 0 auto; */
+    /* max-height: 35px; */
+/* } */
+
+.logo{
+    display: inline-block;
+    max-height: 80px;
+}
+
+/* brand name */
+/* .brandName{
+
+} */
+.brandAndAddress{
+    list-style: none;
+    color: white;
+
+}
+address{
+    font-size: 15px;
+    margin: 0;
+}
+.nav-link{
+    font-size: 20px;
+    color: white !important;
+}
+#basic-nav-dropdown{
+    color: white;
+}
+/* .nav-link{
+    color: white;
+} */
+/* .dropdown-item{
+    color: black;
+} */
+/* .links a:hover{
+    font-weight: bold;
+    color: white;
+} */
+          /* <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="m-0">
+              <Nav.Link href="#home">ContactUs</Nav.Link>
+              <Nav.Link href="#link">Cart</Nav.Link>
+              <NavDropdown title="My Account" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
+          </Navbar.Collapse> */
+
+/* vertical navbar */
+/* for toggle behavior */
+
+/* for product list */
+.list-group{
+    height: 80vh;
+    overflow: auto;
+    margin-top: 1rem;
+}
+.list-group a{
+    margin: 0;
+}
+/* to disable the default scroll bar while scrolling student list */
+/* .keep-scrolling::-webkit-scrollbar {
+    display: none;
+}
+.active {
+    background: linear-gradient(to left, #ffcc99 10%, #ffffff 100%);
+    border-right: 5px solid #e76f51;
+  }
+  .active a {
+    color: #e76f51;
+    font-weight: bold;
+  }
+  .added {
+    background-color: orange;
+    color: white;
+  } */
+
+/* for add button */
+/* .btn:hover {
+    background: orange;
+    color: white;
+    border: 2px solid orange; */
+    /* display: none; */
+  /* } */
+
+/* online css */
+
+.btn {
+    height: 30px !important;
+    padding: 0 1.5rem !important;
+    margin: 1.5rem 1rem !important;
+    background: white !important;
+    color: black !important;
+    border: 2px solid orange !important;
+  }
+  
+  .btn:hover {
+    background: orange !important;
+    color: white !important;
+    border: 2px solid orange !important;
+    /* display: none; */
+  }
+  .a {
+    text-decoration: none !important;
+    font-weight: normal !important;
+    color: black !important;
+    width: 100% !important;
+    display: block !important;
+    opacity: 0.7 !important;
+  }
+  /* for links left side */
+  .categories a:hover {
+    color: black !important;
+    font-weight: bold !important;
+  }
+  .active {
+    background: linear-gradient(to left, #ffcc99 10%, #ffffff 100%) !important;
+    border-right: 5px solid #e76f51 !important;
+    color: black !important;
+    font-weight: bold !important;
+  }
+  .active a {
+    color: #e76f51 !important;
+    font-weight: bold !important;
+  }
+  p {
+    text-align: left !important;
+    margin: 0.5rem auto !important;
+    padding: 0 !important;
+  }
+  h5 {
+    font-weight: lighter !important;
+    text-align: left !important;
+  }
+  .added {
+    background-color: orange !important;
+    color: white !important;
+  }
+
+@media only screen and (max-width: 570px) {
+    .list-group{
+        margin-top: 1rem;
+    }
+}
